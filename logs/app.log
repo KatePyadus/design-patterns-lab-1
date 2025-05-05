@@ -1,0 +1,20 @@
+{"level":30,"time":1746464064524,"pid":20780,"hostname":"LAPTOP-726J17M8","id":"T1","area":6,"perimeter":12,"msg":"Valid triangle."}
+{"level":40,"time":1746464064524,"pid":20780,"hostname":"LAPTOP-726J17M8","line":"1 1 2 2 z 3","msg":"Invalid triangle input, skipping."}
+{"level":40,"time":1746464064524,"pid":20780,"hostname":"LAPTOP-726J17M8","triangle":{"id":"T3","a":{"x":0,"y":0},"b":{"x":0,"y":0},"c":{"x":0,"y":0}},"msg":"Invalid triangle geometry."}
+{"level":30,"time":1746464064524,"pid":20780,"hostname":"LAPTOP-726J17M8","id":"T4","area":0.5,"perimeter":3.414213562373095,"msg":"Valid triangle."}
+{"level":40,"time":1746464064524,"pid":20780,"hostname":"LAPTOP-726J17M8","line":"","msg":"Invalid triangle input, skipping."}
+{"level":30,"time":1746464064524,"pid":20780,"hostname":"LAPTOP-726J17M8","id":"S1","surfaceArea":113.09733552923255,"volume":113.09733552923254,"intersects":true,"msg":"Valid sphere."}
+{"level":40,"time":1746464064524,"pid":20780,"hostname":"LAPTOP-726J17M8","sphere":{"id":"S2","center":{"x":2,"y":2},"radius":-4},"msg":"Invalid sphere geometry."}
+{"level":30,"time":1746464064525,"pid":20780,"hostname":"LAPTOP-726J17M8","id":"S3","surfaceArea":12.566370614359172,"volume":4.1887902047863905,"intersects":false,"msg":"Valid sphere."}
+{"level":40,"time":1746464064525,"pid":20780,"hostname":"LAPTOP-726J17M8","line":"abc 1 2","msg":"Invalid sphere input, skipping."}
+{"level":40,"time":1746464064525,"pid":20780,"hostname":"LAPTOP-726J17M8","line":"","msg":"Invalid sphere input, skipping."}
+{"level":30,"time":1746465042191,"pid":5588,"hostname":"LAPTOP-726J17M8","id":"T1","area":6,"perimeter":12,"msg":"Valid triangle."}
+{"level":40,"time":1746465042192,"pid":5588,"hostname":"LAPTOP-726J17M8","line":"1 1 2 2 z 3","msg":"Invalid triangle input, skipping."}
+{"level":40,"time":1746465042192,"pid":5588,"hostname":"LAPTOP-726J17M8","triangle":{"id":"T3","a":{"x":0,"y":0},"b":{"x":0,"y":0},"c":{"x":0,"y":0}},"msg":"Invalid triangle geometry."}
+{"level":30,"time":1746465042192,"pid":5588,"hostname":"LAPTOP-726J17M8","id":"T4","area":0.5,"perimeter":3.414213562373095,"msg":"Valid triangle."}
+{"level":40,"time":1746465042192,"pid":5588,"hostname":"LAPTOP-726J17M8","line":"","msg":"Invalid triangle input, skipping."}
+{"level":30,"time":1746465042192,"pid":5588,"hostname":"LAPTOP-726J17M8","id":"S1","surfaceArea":113.09733552923255,"volume":113.09733552923254,"intersects":true,"msg":"Valid sphere."}
+{"level":40,"time":1746465042193,"pid":5588,"hostname":"LAPTOP-726J17M8","sphere":{"id":"S2","center":{"x":2,"y":2},"radius":-4},"msg":"Invalid sphere geometry."}
+{"level":30,"time":1746465042193,"pid":5588,"hostname":"LAPTOP-726J17M8","id":"S3","surfaceArea":12.566370614359172,"volume":4.1887902047863905,"intersects":false,"msg":"Valid sphere."}
+{"level":40,"time":1746465042193,"pid":5588,"hostname":"LAPTOP-726J17M8","line":"abc 1 2","msg":"Invalid sphere input, skipping."}
+{"level":40,"time":1746465042193,"pid":5588,"hostname":"LAPTOP-726J17M8","line":"","msg":"Invalid sphere input, skipping."}
