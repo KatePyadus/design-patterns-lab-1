@@ -8,7 +8,6 @@ import { Sphere } from "./entities/Sphere";
 import { SphereValidator } from "./validators/SphereValidator";
 import { SphereService } from "./services/SphereService";
 import { Point } from "./entities/Point";
-import { Triangle } from "./entities/Triangle";
 
 const triangleFilePath = path.join(__dirname, "..", "data", "triangles.txt");
 const triangleLines = fs.readFileSync(triangleFilePath, "utf-8").split("\n");
@@ -27,7 +26,10 @@ triangleLines.forEach((line, index) => {
 
   const area = TriangleService.area(triangle);
   const perimeter = TriangleService.perimeter(triangle);
-  logger.info({ id: triangle.id, area, perimeter }, "Valid triangle.");
+  const type = TriangleService.detectType(triangle);
+  triangle.triangleType = type;
+
+  logger.info({ id: triangle.id, area, perimeter, type }, "Valid triangle.");
 });
 
 const sphereFilePath = path.join(__dirname, "..", "data", "spheres.txt");
